@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Quicksand" ;
+    src: url(../font/Quicksand-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+    text-align: center;
+}
+
+/* Header */
+
+header{
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #33333310;
+}
+.logo{
+    width: 50px;
+}
+.iconoMiCarrito{
+    font-size: 30px;
+    color:#000
+}
+div div i{
+    font-size: 25px;
+}
+
+/* Body */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.ahorrado{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: solid #33333310;
+    border-width: 10px;
+}
+
+section{
+    margin: 20px;
+}
+
+.Disco{
+    height: 15vw;
+}
+.Walmart{
+    height: 10vw;
+}
+.Carrefour{
+    height: 10vw;
+}
+.Coto{
+    height: 10vw;
+}
+
+.promociones{
+    color: rgba(255, 255, 255, 0);
+    background-image: url(../multimedia/CyberMonday.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    margin: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+.tarjeta{
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.boton{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* Footer */
+
+footer{
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: #33333310;
+}
+
+a .sobreNosotros{
+    width: 50px;
+}
+.redesSociales{
+    font-size: 40px;
+}
+.x{
+    color: #000;
+}
+.instagram{
+    color: #000;
+}
+.mensaje{
+    color: #000;
+}
